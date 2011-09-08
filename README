@@ -1,0 +1,7 @@
+port of ofxCvColorImageAlpha to openFrameworks 007
+
+Original port (0062 compatible) here:
+http://forum.openframeworks.cc/index.php/topic,2119.0.html
+
+not all features have been tested
+
