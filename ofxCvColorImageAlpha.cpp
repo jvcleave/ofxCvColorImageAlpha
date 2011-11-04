@@ -308,7 +308,7 @@ void ofxCvColorImageAlpha::resize( int w, int h ) {
     // note, one image copy operation could be ommitted by
     // reusing the temporal image storage
 	
-    IplImage* temp = cvCreateImage( cvSize(w,h), IPL_DEPTH_8U, 3 );
+    IplImage* temp = cvCreateImage( cvSize(w,h), IPL_DEPTH_8U, 4 );
     cvResize( cvImage, temp );
     clear();
     allocate( w, h );
